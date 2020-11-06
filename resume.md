@@ -21,6 +21,7 @@ Senior full-stack architect with 18 years of professional experience.
 - React
 - KnockoutJS
 - MeteorJS
+- ECMAScript 2015 - 2019
 
 ## Back-end
 
@@ -45,7 +46,7 @@ Developed an MFE proof-of-concept using Single-SPA.  The individual applications
 - Single-SPA
 - React
 - NodeJS http-server
-
+- ECMAScript 2015 - 2019
 
 ### Research: Hadoop Compute, Spark, HDFS 2020/09
 
@@ -65,13 +66,66 @@ Created an application as a research project to gain experience with Hadoop Comp
 
 ### Encompass Authority
 
+Built a system of microservices that provided a mirror of a massive legacy system.  The data in the legacty system was poorly accessible, and the new system made the data queryable and allowing for realtime subscriptions.  The primary datastore managed billions of records in an RDBMS.
+
+#### Technologies
+
+- C#
+- .NET Framework 4.5.2
+- .NET Core
+- ASP.NET Core
+- gRPC
+- Kerberos
+- RabbitMQ
+- MassTransit
+- Multi-threading / Concurrency
+- GraphQL
+- PostgreSQL
+- SQL Server
+- Reactive Extensions (.NET)
+
+
 ### Encompass API Gateway
+
+Built a gRPC service that replicated the Encompass SDK API, which required .NET Framework 4.5.2, and exposed the functionality via a gRPC interface, allowing any technology stack to integrate with Encompass via the SDK.
+
+#### Technologies
+
+- C#
+- .NET Framework 4.5.2
+- .NET Core
+- Kerberos
+- gRPC
+
 
 ### Encompass Loan Fees
 
+Created a mechanism to refactor a user experience in a desktop application using the Chromium Embedded Framework.  Effectively, I created a web-powered UI within a legacy desktop application.
+
+#### Technologies
+
+- C#
+- ECMAScript 2015 - 2019
+- Chromium Embedded Framework (CefSharp)
+- React
+- Parcel bundler
+- TypeScript
+
+
 ### Point of Sale Adaptation
 
-### R&D: DevOps / CI-cD
+Took a codebase crated to replace the client's point-of-sale and adapted it to their needs.  This included integrating the web application with the back-end Encompass system.  The majority of my time on this project was spent mentoring other team members and unblocking them.
+
+#### Technologies
+
+- C#
+- ECMAScript 2015 - 2019
+- Knockout.JS
+- ASP.NET MVC 4
+- ASP.NET WebAPI
+- SQL Server
+
+### R&D: DevOps / CI-CD
 
 ### Reusable Packages / Cross-cutting Concerns
 
