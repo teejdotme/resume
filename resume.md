@@ -22,6 +22,7 @@ Senior full-stack architect with 18 years of professional experience.
 - KnockoutJS
 - MeteorJS
 - ECMAScript 2015 - 2019
+- SignalR
 
 ## Back-end
 
@@ -34,6 +35,7 @@ Senior full-stack architect with 18 years of professional experience.
 - http-server
 - Linux
 - Babel
+- SignaR
 
 ## Delivery
 
@@ -41,6 +43,12 @@ Senior full-stack architect with 18 years of professional experience.
 - Azure YAML Pipelines
 - Docker
 - Docker Compose
+
+## Cloud
+
+- Azure
+- AWS
+- Google Cloud
 
 
 # Experience 
@@ -165,59 +173,224 @@ Before engaging this client, they had no CI/CD automation.  In fact, many projec
 
 ### Reusable Packages / Cross-cutting Concerns
 
+Designed and implemented reusable NuGet package for the organization to use to handle cross-cutting concerns like logging, dependency injection, application hosting, etc.  Prior to these packages, every team implemented these concerns separately.
+
+#### Technologies
+
+- C#
+- NuGet Packager
+- Elasticsearch
+- Logstash
+- Git
+
+
 ## Cazton Client: Finance Industry 2014/05 - 2015/03
 
 ### R&D: Parallel and Streaming Multipart Uploads
 
+The main product of the organization accepted uploaded files of arbitrary size, but found themselves running out of memory when file uploads exceeded a certain size.  Developed a replacement for an ASP.NET multipart upload handler that streamed files to the virus scanner and ultimately reduced memory pressure and removed limits on file upload size.
+
+- C#
+- WCF
+- ASP.NET WebAPI
+- Git
+
 ### R&D: PDF Generation Library
+
+Developed a replacement for the existing, paid, closed-source PDF generation in order to allow the organization to quickly generate PDF invoices from Razor templates.
+
+- EvoPDF
+- C#
+- Razor Generator
+- Git
 
 ### R&D: R2 DSL / Code Generation Library
 
+Created a code generation library called R2, which implemented a DSL to allow developers to define request/response contracts using a markup language.  The code generation library would then generate all of the scaffolding for the handlers, tests, etc.
+
+#### Tehchnologies
+
+- C#
+- XML/XSD
+- T4 Templating Engine
+- MSBuild Extensibility
+- Git
+
 ### Full-stack Primary Product Development
 
+Assisted the product development team on an Angular.JS project by augmenting their staff and implementing features.
+
+#### Technologies
+
+- C#
+- ECMAScript 2015 - 2016
+- Babel
+- ElasticSearch
+- Angular.JS
+- ASP.NET MVC
+- ASP.NET WebAPI
+- SQL Server
 
 ## SiteZeus 2017/09 - 2018/06
 
 ### CI/CD Pipeline using VSTS
 
+Introduced the organization to automated CI/CD using Azure Devops.
+
+#### Technologies
+
+- Git
+- TFS
+- Azure DevOps
+- Azure DevOps Builds and Releases
+- XUnit Testing
+
+
 ### Migration from TFS to Git
+
+The source code was originally stored in TFS; I managed the migration to Git and automated building, testing, and deploying.
+
+- Git
+- TFS
+- Azure DevOps
+
 
 ### Redis Caching
 
+The main product for the organization cached expensive computations, but did so with local server memory.  I managed the migration from memory caches to a shared, distributed cache using Redis.
+
+- C#
+- Redis
+
+
 ### SSO/SAML Infrastructure
+
+I implemented the ability to log into the application using SSO/SAML.  This allowed corporate clients to connect with their corporate credentials instead of having to maintain separate credentials for our application.
+
+#### Technologies
+
+- SAML
+- Encrypted XML
+- Encryption and Hashing/Signing
+- ASP.NET
+- ASP.NET WebAPI
+
 
 ### Architecture and Testing Improvements
 
+I completely reorganized the architecture of the main project to enable dependency injection of individually testable components.  Then, I integrated a testing framework and mentored the team on using it to implements their own tests using mocks and other constructs.
+
+#### Technologies
+
+- C#
+- Git
+- XUnit
+- Dependency Injection
+
+
 ### Puppeteer Microservice
 
+We had a need to use automation to log in to our application, perform some actions, take a screenshot of the result, and return it to a user.  This is because the application did have an API to do this in a more straightforward way.  I chose Puppeteer to perform the automation.
+
+- C#
+- Puppeteer.JS
+- Microservices
+- Docker
+- Azure Container Registry
+- Azure Container Instance
+- Git
+
+
 ### Realtime Data with SignalR
+
+The existing application maintained an up-to-date UI by polling for information periodically.  I created a framework using SignalR, Rx.NET, and Rx.JS to allow developers to push data instead of having to periodically poll.
+
+#### Technologies
+
+- C#
+- Git
+- Rx.NET
+- RX.JS
+- ECMAScript 2015 - 2017
+- Babel
+- SignalR
 
 
 ## Person and Partners - 2012/10 - Present
 
-### 
+### Custom Data Integration Platform
 
+I developed and maintain an application in Meteor.JS that connects mutliple vendors of data, and multiple lead sources like HTML forms, Facebook Leadgen, Google Web Hooks, and others.  The leads integration with the individual clients' CRM via this platform.
+
+#### Technologies
+
+- ECMAScript 5 - 2019
+- Babel
+- Webhook
+- MeteorJS
+- MongoDB
+- Facebook API
+- Search Ads 360 API
+- Google Ads API
+- ADF / XML
 
 
 ## Price Waterhouse Coopers (PwC) - 2017/01 - 2017/07
 
 ### Established New Project Architecture and Patterns
 
+The company was going through an upheaval and reorganization.  We began a project, but there was no acrhictectural guidance so every developer was working differently.  I implemented and shared patterns for building our application using Angular.
+
+## Technologies
+
+- C#
+- Git
+- Azure DevOps
+- ASP.NET Core
+- Angular
+
+
 ### Established Code Review Process
+
+Before my joining the team, all code was committed without any kind of code review.  The team did not know how to use Git pull requests to achieve this purpose, so I instituted branch policies to require all code to be reviewed.
+
+- C#
+- Git
+- Azure DevOps
+- Pull Requests
+- Azure DevOps Git Branch Security
+
 
 ### Mentoring Team Members
 
-### Establishing CI/CD Pipeline using VSTS
+Due to organizational restructuring, the team had no development leadership.  I took on this role.
 
-
-
+- C#
+- Git
+- Azure DevOps
+- Pull Requests
+- Azure DevOps Git Branch Security
 
 
 ## Tribridge - 2016/03 - 2016/10
 
 ### Synchronization Framework
 
+One of the major promised features of the application was a push-based constant upate of the UI.  I implemnted a framework for the team to use to make this feature available.
+
+#### Technologies
+
+- C#
+- ASP.NET 
+- ASP.NET WebAPI
+- Entity Framework
+- SQL Server
+- Redis
+- SignalR
+
+
 ### Android Mobile Printing Infrastructure
+
 
 
 
