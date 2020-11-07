@@ -31,6 +31,16 @@ Senior full-stack architect with 18 years of professional experience.
 - ASP.Net WebAPI
 - ASP.NET Core
 - Express.js
+- http-server
+- Linux
+- Babel
+
+## Delivery
+
+- Azure DevOps
+- Azure YAML Pipelines
+- Docker
+- Docker Compose
 
 
 # Experience 
@@ -47,6 +57,9 @@ Developed an MFE proof-of-concept using Single-SPA.  The individual applications
 - React
 - NodeJS http-server
 - ECMAScript 2015 - 2019
+- Git
+- Linux
+  
 
 ### Research: Hadoop Compute, Spark, HDFS 2020/09
 
@@ -60,7 +73,10 @@ Created an application as a research project to gain experience with Hadoop Comp
 - Apache Hadoop Streams
 - Apache Hadoop HDFS
 - Apache Spark
-
+- Git
+- Linux
+- Docker
+- Docker Compose
 
 ## Cazton Client: Mortgage Industry 2018/08 - 2020/09
 
@@ -83,6 +99,10 @@ Built a system of microservices that provided a mirror of a massive legacy syste
 - PostgreSQL
 - SQL Server
 - Reactive Extensions (.NET)
+- Git
+- HAProxy
+- Docker
+- Docker Compose
 
 
 ### Encompass API Gateway
@@ -96,7 +116,8 @@ Built a gRPC service that replicated the Encompass SDK API, which required .NET 
 - .NET Core
 - Kerberos
 - gRPC
-
+- Git
+  
 
 ### Encompass Loan Fees
 
@@ -110,6 +131,8 @@ Created a mechanism to refactor a user experience in a desktop application using
 - React
 - Parcel bundler
 - TypeScript
+- Babel
+- Git
 
 
 ### Point of Sale Adaptation
@@ -124,8 +147,21 @@ Took a codebase crated to replace the client's point-of-sale and adapted it to t
 - ASP.NET MVC 4
 - ASP.NET WebAPI
 - SQL Server
+- TypeScript
+- Webpack
+- Babel
+- Git
 
 ### R&D: DevOps / CI-CD
+
+Before engaging this client, they had no CI/CD automation.  In fact, many projects were not even stored in source control, and most applications were deployed from builds done on individual developer machines.  I organized the transition to Git for source control and installed automation for CI/CD through Azure Devops.
+
+#### Technologies
+
+- Git
+- Azure DevOps
+- Azure YAML Pipelines
+- Docker
 
 ### Reusable Packages / Cross-cutting Concerns
 
